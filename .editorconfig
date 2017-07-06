@@ -1,6 +1,8 @@
+# http://editorconfig.org
 root = true
 
 [*]
+indent_size = 2
 indent_style = tab
 end_of_line = lf
 charset = utf-8
@@ -9,4 +11,3 @@ insert_final_newline = true
 
 [*.{json,yml,md}]
 indent_style = space
-indent_size = 2

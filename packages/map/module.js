@@ -1,13 +1,13 @@
 export default function (arr, fn) {
-  if (arr == null) {
-    return [];
-  }
+	if (arr == null) {
+		return [];
+	}
 
-  var i=0, len=arr.length, out=new Array(len);
+	var i=0, len=arr.length, out=new Array(len);
 
-  for (; i < len; i++) {
-    out[i] = fn(arr[i], i);
-  }
+	for (; i < len; i++) {
+		out[i] = fn(arr[i], i);
+	}
 
-  return out;
+	return out;
 }
