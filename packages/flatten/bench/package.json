@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "devDependencies": {
+    "arr-flatten": "^1.1.0",
+    "array-flatten": "^2.1.1",
+    "flatten": "^1.0.2",
+    "flatten-array": "^1.0.0",
+    "fast.js": "^0.1.1",
+    "lodash.flattendeep": "^4.4.0"
+  }
+}

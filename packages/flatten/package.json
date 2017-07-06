@@ -1,0 +1,38 @@
+{
+  "name": "@arr/flatten",
+  "version": "0.0.0",
+  "repository": "lukeed/arr",
+  "description": "Recursively flatten an array of arrays",
+  "module": "module.js",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Luke Edwards",
+    "email": "luke.edwards05@gmail.com",
+    "url": "lukeed.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "bench": "node bench",
+    "test": "tape test/*.js | tap-spec"
+  },
+  "files": [
+    "*.js"
+  ],
+  "keywords": [
+    "arr",
+    "array",
+    "Array.flatten",
+    "Array.prototype.flatten",
+    "performance",
+    "recursive",
+    "recurse",
+    "nested",
+    "flatten"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
