@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "devDependencies": {
+    "arr-filter": "^1.1.2",
+    "array-filter": "^1.0.0",
+    "fast.js": "^0.1.1",
+    "lodash.filter": "^4.6.0"
+  }
+}

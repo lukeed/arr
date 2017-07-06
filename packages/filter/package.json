@@ -1,0 +1,36 @@
+{
+  "name": "@arr/filter",
+  "version": "0.0.0",
+  "repository": "lukeed/arr",
+  "description": "A tiny, faster alternative to native Array.prototype.filter",
+  "module": "module.js",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Luke Edwards",
+    "email": "luke.edwards05@gmail.com",
+    "url": "lukeed.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "bench": "node bench",
+    "test": "tape test/*.js | tap-spec"
+  },
+  "files": [
+    "*.js"
+  ],
+  "keywords": [
+    "arr",
+    "array",
+    "Array.filter",
+    "Array.prototype.filter",
+    "performance",
+    "native",
+    "filter"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
