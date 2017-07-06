@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "devDependencies": {
+    "compute-reverse": "^1.1.0",
+    "lodash.reverse": "^4.0.1"
+  }
+}
