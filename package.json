@@ -9,7 +9,9 @@
     "url": "https://lukeed.com"
   },
   "scripts": {
+    "bench": "lerna run bench",
     "build": "taskr build",
+    "prebench": "lerna bootstrap && taskr build",
     "pretest": "lerna bootstrap",
     "test": "lerna run test"
   },
