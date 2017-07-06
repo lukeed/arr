@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "devDependencies": {
+    "arr-map": "^2.0.2",
+    "array-map": "^0.0.0",
+    "fast.js": "^0.1.1",
+    "lodash.map": "^4.6.0"
+  }
+}
