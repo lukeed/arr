@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "devDependencies": {
+    "fast.js": "^0.1.1",
+    "lodash.lastindexof": "^4.0.5"
+  }
+}
