@@ -3,3 +3,6 @@ node_modules
 coverage
 *.lock
 *.log
+
+# auto-built
+packages/*/index.js
