@@ -14,7 +14,7 @@ bench
 	.add('current', () => curr(foo, bar, 0))
 	.add('arr-reduce', () => arrReduce(foo, bar, 0))
 	.add('fast.reduce', () => fast(foo, bar, 0))
-	.add('lodash', () => lodash(foo, bar, 0))
+	.add('lodash.reduce', () => lodash(foo, bar, 0))
 	.on('complete', function() {
 		console.log('Fastest is ' + this.filter('fastest').map('name'));
 

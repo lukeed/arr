@@ -18,7 +18,7 @@ bench
 	.add('array-flatten', () => arrayFlatten(foo))
 	.add('fast.flatten', () => fast(foo))
 	.add('flatten-array', () => flattenArray(foo))
-	.add('lodash', () => lodash(foo))
+	.add('lodash.flattendeep', () => lodash(foo))
 	.on('complete', function() {
 		console.log('Fastest is ' + this.filter('fastest').map('name'));
 

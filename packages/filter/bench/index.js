@@ -16,7 +16,7 @@ bench
 	.add('arr-filter', () => arrFilter(foo, bar))
 	.add('array-filter', () => arrFilter(foo, bar))
 	.add('fast.filter', () => fast(foo, bar))
-	.add('lodash', () => lodash(foo, bar))
+	.add('lodash.filter', () => lodash(foo, bar))
 	.on('complete', function() {
 		console.log('Fastest is ' + this.filter('fastest').map('name'));
 
