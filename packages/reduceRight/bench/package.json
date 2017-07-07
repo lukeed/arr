@@ -1,7 +1,0 @@
-{
-  "private": true,
-  "devDependencies": {
-    "fast.js": "^0.1.1",
-    "lodash.reduceright": "^4.6.0"
-  }
-}

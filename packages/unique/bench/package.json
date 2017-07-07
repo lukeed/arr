@@ -1,7 +1,0 @@
-{
-  "private": true,
-  "devDependencies": {
-    "array-uniq": "^1.0.3",
-    "lodash.uniq": "^4.0.5"
-  }
-}
