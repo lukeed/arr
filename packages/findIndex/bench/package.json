@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "devDependencies": {
+    "lodash.findindex": "^4.6.0"
+  }
+}
