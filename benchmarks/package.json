@@ -11,11 +11,13 @@
     "array-map": "^0.0.0",
     "array-uniq": "^1.0.3",
     "array-unique": "^0.3.2",
-    "benchmarked": "^1.1.1",
+    "chalk": "^2.0.1",
     "compute-reverse": "^1.1.0",
     "fast.js": "^0.1.1",
     "flatten": "^1.0.2",
     "flatten-array": "^1.0.0",
+    "glob": "^7.1.2",
+    "lodash.clone": "^4.5.0",
     "lodash.every": "^4.6.0",
     "lodash.filter": "^4.6.0",
     "lodash.find": "^4.6.0",
@@ -30,6 +32,8 @@
     "lodash.reverse": "^4.0.1",
     "lodash.some": "^4.6.0",
     "lodash.uniq": "^4.5.0",
-    "mri": "^1.1.0"
+    "mri": "^1.1.0",
+    "pad-left": "^2.1.0",
+    "pad-right": "^0.2.2"
   }
 }
