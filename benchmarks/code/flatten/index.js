@@ -1,5 +1,6 @@
 const flatten = require('flatten');
 const arrFlat = require('arr-flatten');
+const ramda = require('ramda').flatten;
 const fastjs = require('fast.js').flatten;
 const flatArray = require('flatten-array');
 const arrayFlat = require('array-flatten');
@@ -13,3 +14,4 @@ exports['fastjs.flatten'] = arr => fastjs(arr);
 exports['flatten'] = arr => flatten(arr);
 exports['flatten-array'] = arr => flatArray(arr);
 exports['lodash.flattendeep'] = arr => lodash(arr);
+exports['ramda.flatten'] = arr => ramda(arr);

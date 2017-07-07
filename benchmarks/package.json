@@ -5,6 +5,7 @@
     "arr-flatten": "^1.1.0",
     "arr-map": "^2.0.2",
     "arr-reduce": "^1.0.1",
+    "arr-uniq": "^1.0.0",
     "array-every": "^0.1.2",
     "array-filter": "^1.0.0",
     "array-flatten": "^2.1.1",
@@ -34,6 +35,7 @@
     "lodash.uniq": "^4.5.0",
     "mri": "^1.1.0",
     "pad-left": "^2.1.0",
-    "pad-right": "^0.2.2"
+    "pad-right": "^0.2.2",
+    "ramda": "^0.24.1"
   }
 }
