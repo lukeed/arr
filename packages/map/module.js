@@ -6,9 +6,7 @@ export default function (arr, fn) {
 	var i=0, len=arr.length, out=new Array(len);
 
 	for (; i < len; i++) {
-		if (arr[i] !== void 0) {
-			out[i] = fn(arr[i], i);
-		}
+		out[i] = fn(arr[i], i, arr);
 	}
 
 	return out;
