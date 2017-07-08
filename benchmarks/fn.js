@@ -10,7 +10,7 @@ const cwd = __dirname;
 
 const RGX = /(\d)(?=(\d{3})+\.)/g;
 const toNum = int => (int || 0).toFixed(2).replace(RGX, '$1,');
-const toMs = arr => Math.round(arr[1] / 1000000);
+const toNano = arr => arr[0] * 1e9 + arr[1];
 
 const glob = str => sync(str, { cwd });
 
@@ -28,7 +28,7 @@ function test(name, func, data) {
 	for (; i < LOOPS; i++) {
 		func(data);
 	}
-	const ms = toMs(process.hrtime(start));
+	const ms = toNano(process.hrtime(start)) / 1e6;
 	const ops = toNum(data.length * LOOPS * 1000 / ms);
 	return { name, ms, ops };
 }
@@ -37,8 +37,8 @@ const maxlen = (arr,k) => arr.reduce((a,b) => a[k].length > b[k].length ? a : b)
 
 function report(arr, testname) {
 	let i=0, len=arr.length;
-	const fastest = arr.reduce((a,b) => a.ms < b.ms ? a : b);
-	arr = arr.map(o => ({ name:o.name, ms:o.ms+'ms', ops:o.ops+' op/s' }));
+	const fastest = arr.reduce((a,b) => a.ms <= b.ms ? a : b);
+	arr = arr.map(o => ({ name:o.name, ms:toNum(o.ms)+'ms', ops:o.ops+' op/s' }));
 	const max = { ms:maxlen(arr, 'ms'), name:maxlen(arr, 'name'), ops:maxlen(arr, 'ops') };
 
 	console.log(testname);
