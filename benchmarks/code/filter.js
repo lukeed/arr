@@ -3,7 +3,7 @@ const arrFilter = require('arr-filter');
 const arrayFilter = require('array-filter');
 const fastjs = require('fast.js').filter;
 const lodash = require('lodash.filter');
-const curr = require('../../../packages/filter');
+const curr = require('../../packages/filter');
 
 const cb = () => true;
 

@@ -1,7 +1,7 @@
 const ramda = require('ramda').forEach;
 const lodash = require('lodash.foreach');
 const fastjs = require('fast.js').forEach;
-const curr = require('../../../packages/forEach');
+const curr = require('../../packages/forEach');
 
 const cb = x => x;
 

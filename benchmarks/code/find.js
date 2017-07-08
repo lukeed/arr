@@ -1,6 +1,6 @@
 const ramda = require('ramda').find;
 const lodash = require('lodash.find');
-const curr = require('../../../packages/find');
+const curr = require('../../packages/find');
 
 const cb = val => val.length > 6;
 

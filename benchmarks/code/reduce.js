@@ -2,10 +2,10 @@ const ramda = require('ramda').reduce;
 const arrReduce = require('arr-reduce');
 const lodash = require('lodash.reduce');
 const fastjs = require('fast.js').reduce;
-const curr = require('../../../packages/reduce');
+const curr = require('../../packages/reduce');
 
 const val = [];
-const cb = (a,b) => a.concat(b);
+const cb = _ => true;
 
 exports['native'] = arr => arr.reduce(cb, val);
 exports['@arr/reduce'] = arr => curr(arr, cb, val);

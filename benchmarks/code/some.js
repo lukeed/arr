@@ -1,6 +1,6 @@
 const lodash = require('lodash.some');
 const fastjs = require('fast.js').some;
-const curr = require('../../../packages/some');
+const curr = require('../../packages/some');
 
 const cb = x => x;
 

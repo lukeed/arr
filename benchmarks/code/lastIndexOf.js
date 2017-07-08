@@ -1,7 +1,7 @@
 const ramda = require('ramda').lastIndexOf;
 const lodash = require('lodash.lastindexof');
 const fastjs = require('fast.js').lastIndexOf;
-const curr = require('../../../packages/lastIndexOf');
+const curr = require('../../packages/lastIndexOf');
 
 const val = 'foobar';
 

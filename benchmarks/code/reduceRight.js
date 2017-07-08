@@ -1,10 +1,10 @@
 const ramda = require('ramda').reduceRight;
 const lodash = require('lodash.reduceright');
 const fastjs = require('fast.js').reduceRight;
-const curr = require('../../../packages/reduceRight');
+const curr = require('../../packages/reduceRight');
 
 const val = [];
-const cb = (a,b) => a.concat(b);
+const cb = _ => true;
 
 exports['native'] = arr => arr.reduceRight(cb);
 exports['@arr/reduceRight'] = arr => curr(arr, cb);

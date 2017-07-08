@@ -3,7 +3,7 @@ const ramda = require('ramda').map;
 const arrayMap = require('array-map');
 const lodash = require('lodash.map');
 const fastjs = require('fast.js').map;
-const curr = require('../../../packages/map');
+const curr = require('../../packages/map');
 
 const cb = x => x;
 

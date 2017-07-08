@@ -1,7 +1,7 @@
 const every = require('array-every');
 const lodash = require('lodash.every');
 const fastjs = require('fast.js').every;
-const curr = require('../../../packages/every');
+const curr = require('../../packages/every');
 
 const cb = () => true;
 

@@ -1,6 +1,6 @@
 const ramda = require('ramda').findIndex;
 const lodash = require('lodash.findindex');
-const curr = require('../../../packages/findIndex');
+const curr = require('../../packages/findIndex');
 
 const cb = val => val.length > 6;
 

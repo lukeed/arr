@@ -1,4 +1,4 @@
-const curr = require('../../../packages/includes');
+const curr = require('../../packages/includes');
 
 const val = 'foobar';
 
