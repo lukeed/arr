@@ -1,11 +1,24 @@
+const { dim } = require('chalk');
 const random = require('./random');
 
-const sizes = [ 100, 500, 1000, 5000, 10000 ];
-const types = { str:'string', int:'number', obj:'object', arr:'array' };
+const SIZES = [ 100, 500, 1000, 5000, 10000 ];
+const TYPES = { string:'str', number:'int', object:'obj', array:'arr' };
 
-let i, fn;
-for (fn in types) {
-	for (i=0; i < sizes.length; i++) {
-		exports[`Array<${ types[fn] }>(${ sizes[i] })`] = random[fn](sizes[i]);
+module.exports = function (type, size) {
+	const types = type ? [type] : Object.keys(TYPES);
+	const sizes = size ? [size] : SIZES;
+
+	if (type || size) {
+		console.log(dim(`> Filtering fixtures`));
 	}
+
+	let i=0, j, fn, out={};
+	for (i; i < types.length; i++) {
+		fn = TYPES[ types[i] ]; // randomizer
+		for (j=0; j < sizes.length; j++) {
+			out[`Array<${ types[i] }>(${ sizes[j] })`] = random[fn](sizes[j]);
+		}
+	}
+
+	return out;
 }

@@ -2,7 +2,8 @@ const chalk = require('chalk');
 const lpad = require('pad-left');
 const rpad = require('pad-right');
 const clone = require('lodash.clone');
-const { sync } = require('glob');
+const sync = require('glob').sync;
+const gen = require('./fixtures');
 
 const LOOPS = 30000;
 const cwd = __dirname;
@@ -13,23 +14,10 @@ const toMs = arr => Math.round(arr[1] / 1000000);
 
 const glob = str => sync(str, { cwd });
 
-function filter(obj, opts) {
-	let k, out={}, str='';
-	opts.type && (str += `<${ opts.type }>`);
-	opts.size && (str += `(${ opts.size })`);
-	console.log(chalk.dim(`> Filtering fixtures for '${ str }'`));
-	for (k in obj) {
-		if (k.indexOf(str) !== -1) {
-			out[k] = obj[k];
-		}
-	}
-	return out;
-}
-
 function retrieve(file, type, size) {
 	console.log(chalk.dim('> Constructing all fixture data'));
-	const funcs=require(`./${file}`), all=require('./fixtures');
-	const datas = (type || size) ? filter(all, { type, size }) : all;
+	const funcs = require(`./${file}`);
+	const datas = gen(type, size);
 	console.log(chalk.dim('> Fixtures ready!'));
 	return { funcs, datas };
 }
