@@ -1,6 +1,6 @@
 {
-  "name": "@arr/findIndex",
-  "version": "0.0.0",
+  "name": "@arr/findindex",
+  "version": "0.1.0",
   "repository": "lukeed/arr",
   "description": "A tiny, faster alternative to native Array.prototype.findIndex",
   "module": "module.js",
@@ -28,7 +28,7 @@
     "Array.prototype.findIndex",
     "performance",
     "native",
-    "findIndex"
+    "findindex"
   ],
   "publishConfig": {
     "access": "public"

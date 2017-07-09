@@ -1,6 +1,6 @@
 {
-  "name": "@arr/lastIndexOf",
-  "version": "0.0.0",
+  "name": "@arr/lastindexof",
+  "version": "0.1.0",
   "repository": "lukeed/arr",
   "description": "A tiny, faster alternative to native Array.prototype.lastIndexOf",
   "module": "module.js",

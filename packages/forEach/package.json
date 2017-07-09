@@ -1,6 +1,6 @@
 {
-  "name": "@arr/forEach",
-  "version": "0.0.0",
+  "name": "@arr/foreach",
+  "version": "0.1.0",
   "repository": "lukeed/arr",
   "description": "A tiny, faster alternative to native Array.prototype.forEach",
   "module": "module.js",
@@ -28,7 +28,7 @@
     "Array.prototype.forEach",
     "performance",
     "native",
-    "forEach"
+    "foreach"
   ],
   "publishConfig": {
     "access": "public"

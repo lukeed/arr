@@ -1,6 +1,6 @@
 {
   "name": "@arr/includes",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "repository": "lukeed/arr",
   "description": "A tiny, faster alternative to native Array.prototype.includes",
   "module": "module.js",

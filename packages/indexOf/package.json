@@ -1,6 +1,6 @@
 {
-  "name": "@arr/indexOf",
-  "version": "0.0.0",
+  "name": "@arr/indexof",
+  "version": "0.1.0",
   "repository": "lukeed/arr",
   "description": "A tiny, faster alternative to native Array.prototype.indexOf",
   "module": "module.js",

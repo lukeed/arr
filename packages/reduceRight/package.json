@@ -1,6 +1,6 @@
 {
-  "name": "@arr/reduceRight",
-  "version": "0.0.0",
+  "name": "@arr/reduceright",
+  "version": "0.1.0",
   "repository": "lukeed/arr",
   "description": "A tiny, faster alternative to native Array.prototype.reduceRight",
   "module": "module.js",
