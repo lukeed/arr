@@ -1,3 +1,5 @@
+'use strict';
+
 const randomize = require('randomatic');
 
 const rand = (x, y) => Math.floor(Math.random() * y) + x;

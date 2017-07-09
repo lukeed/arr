@@ -1,7 +1,7 @@
 const size = require('gzip-size');
 const Table = require('cli-table2');
 const bytes = require('pretty-bytes');
-const { minify } = require('uglify-js');
+const minify = require('uglify-js').minify;
 
 const out = {};
 const tbl = new Table({ head:['Package', 'Minified', 'Gzipped'] });
@@ -11,8 +11,8 @@ exports.build = function * (task) {
 		const data = file.data.toString().replace('export default', 'module.exports =');
 		file.base = 'index.js';
 		file.data = data;
-		const { code } = minify(data, { fromString:true });
-		out[file.dir] = { min:bytes(code.length), gzip:bytes(size.sync(code)) };
+		const min = minify(data, { fromString:true }).code;
+		out[file.dir] = { min:bytes(min.length), gzip:bytes(size.sync(min)) };
 	}).target('packages');
 
 	for (const k in out) {

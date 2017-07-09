@@ -1,3 +1,5 @@
+'use strict';
+
 const chalk = require('chalk');
 const lpad = require('pad-left');
 const rpad = require('pad-right');
