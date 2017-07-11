@@ -1,3 +1,16 @@
+# Benchmark Results for Node `v6.11.0` (LTS)
+
+All benchmarks were run on the same machine:
+
+```
+MacBook Pro (Retina, 15-inch, Early 2013)
+- 2.4 GHz Intel Core i7
+- 8 GB 1600 MHz DDR3
+```
+
+In search for utmost consistency, no other applications were running during testing. Please note that numbers will vary per machine.
+
+> Don't forget to view results for other Node versions!
 
 ## every
 
