@@ -1510,6 +1510,6 @@ Array<object>(1000)
 
 <br>
 
-> :no_entry_sign: -- Denotes function **is not** faster than native built-in <br>
-> :white_check_mark: -- Denotes function **is** faster than native built-in <br>
-> :wavy_dash: -- Denotes function has no native counterpart
+> :no_entry_sign: &mdash; Denotes function **is not** faster than native built-in <br>
+> :white_check_mark: &mdash; Denotes function **is** faster than native built-in <br>
+> :wavy_dash: &mdash; Denotes function has no native counterpart
