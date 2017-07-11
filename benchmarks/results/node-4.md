@@ -16,7 +16,7 @@ In search for utmost consistency, no other applications were running during test
 ## every
 
 <details>
-<summary>↝ Strings</summary>
+<summary>:white_check_mark: ↝ Strings</summary>
 
 ```
 Array<string>(100)
@@ -57,7 +57,7 @@ Array<string>(10000)
 </details>
 
 <details>
-<summary>↝ Numbers</summary>
+<summary>:white_check_mark: ↝ Numbers</summary>
 
 ```
 Array<number>(100)
@@ -98,7 +98,7 @@ Array<number>(10000)
 </details>
 
 <details>
-<summary>↝ Objects</summary>
+<summary>:white_check_mark: ↝ Objects</summary>
 
 ```
 Array<object>(100)
@@ -142,7 +142,7 @@ Array<object>(10000)
 ## filter
 
 <details>
-<summary>↝ Strings</summary>
+<summary>:white_check_mark: ↝ Strings</summary>
 
 ```
 Array<string>(100)
@@ -193,7 +193,7 @@ Array<string>(10000)
 </details>
 
 <details>
-<summary>↝ Numbers</summary>
+<summary>:white_check_mark: ↝ Numbers</summary>
 
 ```
 Array<number>(100)
@@ -244,7 +244,7 @@ Array<number>(10000)
 </details>
 
 <details>
-<summary>↝ Objects</summary>
+<summary>:white_check_mark: ↝ Objects</summary>
 
 ```
 Array<object>(100)
@@ -298,7 +298,7 @@ Array<object>(10000)
 ## find
 
 <details>
-<summary>↝ Strings</summary>
+<summary>:white_check_mark: ↝ Strings</summary>
 
 ```
 Array<string>(100)
@@ -334,7 +334,7 @@ Array<string>(10000)
 </details>
 
 <details>
-<summary>↝ Numbers</summary>
+<summary>:white_check_mark: ↝ Numbers</summary>
 
 ```
 Array<number>(100)
@@ -370,7 +370,7 @@ Array<number>(10000)
 </details>
 
 <details>
-<summary>↝ Objects</summary>
+<summary>:white_check_mark: ↝ Objects</summary>
 
 ```
 Array<object>(100)
@@ -409,7 +409,7 @@ Array<object>(10000)
 ## findIndex
 
 <details>
-<summary>↝ Strings</summary>
+<summary>:white_check_mark: ↝ Strings</summary>
 
 ```
 Array<string>(100)
@@ -445,7 +445,7 @@ Array<string>(10000)
 </details>
 
 <details>
-<summary>↝ Numbers</summary>
+<summary>:white_check_mark: ↝ Numbers</summary>
 
 ```
 Array<number>(100)
@@ -481,7 +481,7 @@ Array<number>(10000)
 </details>
 
 <details>
-<summary>↝ Objects</summary>
+<summary>:white_check_mark: ↝ Objects</summary>
 
 ```
 Array<object>(100)
@@ -520,7 +520,7 @@ Benchmark: code/findIndex.js • Array<object>(10000)
 ## flatten
 
 <details>
-<summary>↝ Arrays</summary>
+<summary>:wavy_dash: ↝ Arrays</summary>
 
 ```
 Array<array>(5)
@@ -565,7 +565,7 @@ Array<array>(500)
 ## forEach
 
 <details>
-<summary>↝ Strings</summary>
+<summary>:white_check_mark: ↝ Strings</summary>
 
 ```
 Array<string>(100)
@@ -611,7 +611,7 @@ Array<string>(10000)
 </details>
 
 <details>
-<summary>↝ Numbers</summary>
+<summary>:white_check_mark: ↝ Numbers</summary>
 
 ```
 Array<number>(100)
@@ -657,7 +657,7 @@ Array<number>(10000)
 </details>
 
 <details>
-<summary>↝ Objects</summary>
+<summary>:white_check_mark: ↝ Objects</summary>
 
 ```
 Array<object>(100)
@@ -711,7 +711,7 @@ Array<object>(10000)
 ## map
 
 <details>
-<summary>↝ Strings</summary>
+<summary>:white_check_mark: ↝ Strings</summary>
 
 ```
 Array<string>(100)
@@ -767,7 +767,7 @@ Array<string>(10000)
 </details>
 
 <details>
-<summary>↝ Numbers</summary>
+<summary>:white_check_mark: ↝ Numbers</summary>
 
 ```
 Array<number>(100)
@@ -823,7 +823,7 @@ Array<number>(10000)
 </details>
 
 <details>
-<summary>↝ Objects</summary>
+<summary>:white_check_mark: ↝ Objects</summary>
 
 ```
 Array<object>(100)
@@ -882,7 +882,7 @@ Array<object>(10000)
 ## reduce
 
 <details>
-<summary>↝ Strings</summary>
+<summary>:white_check_mark: ↝ Strings</summary>
 
 ```
 Array<string>(100)
@@ -928,7 +928,7 @@ Array<string>(10000)
 </details>
 
 <details>
-<summary>↝ Numbers</summary>
+<summary>:white_check_mark: ↝ Numbers</summary>
 
 ```
 Array<number>(100)
@@ -974,7 +974,7 @@ Array<number>(10000)
 </details>
 
 <details>
-<summary>↝ Objects</summary>
+<summary>:white_check_mark: ↝ Objects</summary>
 
 ```
 Array<object>(100)
@@ -1023,7 +1023,7 @@ Array<object>(10000)
 ## reduceRight
 
 <details>
-<summary>↝ Strings</summary>
+<summary>:white_check_mark: ↝ Strings</summary>
 
 ```
 Array<string>(100)
@@ -1064,7 +1064,7 @@ Array<string>(10000)
 </details>
 
 <details>
-<summary>↝ Numbers</summary>
+<summary>:white_check_mark: ↝ Numbers</summary>
 
 ```
 Array<number>(100)
@@ -1105,7 +1105,7 @@ Array<number>(10000)
 </details>
 
 <details>
-<summary>↝ Objects</summary>
+<summary>:white_check_mark: ↝ Objects</summary>
 
 ```
 Array<object>(100)
@@ -1149,7 +1149,7 @@ Array<object>(10000)
 ## reverse
 
 <details>
-<summary>↝ Strings</summary>
+<summary>:white_check_mark: ↝ Strings</summary>
 
 ```
 Array<string>(100)
@@ -1190,7 +1190,7 @@ Array<string>(10000)
 </details>
 
 <details>
-<summary>↝ Numbers</summary>
+<summary>:white_check_mark: ↝ Numbers</summary>
 
 ```
 Array<number>(100)
@@ -1231,7 +1231,7 @@ Array<number>(10000)
 </details>
 
 <details>
-<summary>↝ Objects</summary>
+<summary>:white_check_mark: ↝ Objects</summary>
 
 ```
 Array<object>(100)
@@ -1275,7 +1275,7 @@ Array<object>(10000)
 ## some
 
 <details>
-<summary>↝ Strings</summary>
+<summary>:white_check_mark: ↝ Strings</summary>
 
 ```
 Array<string>(100)
@@ -1311,7 +1311,7 @@ Array<string>(10000)
 </details>
 
 <details>
-<summary>↝ Numbers</summary>
+<summary>:white_check_mark: ↝ Numbers</summary>
 
 ```
 Array<number>(100)
@@ -1347,7 +1347,7 @@ Array<number>(10000)
 </details>
 
 <details>
-<summary>↝ Objects</summary>
+<summary>:white_check_mark: ↝ Objects</summary>
 
 ```
 Array<object>(100)
@@ -1386,7 +1386,7 @@ Array<object>(10000)
 ## unique
 
 <details>
-<summary>↝ Strings</summary>
+<summary>:wavy_dash: ↝ Strings</summary>
 
 ```
 Array<string>(10)
@@ -1427,7 +1427,7 @@ Array<string>(1000)
 </details>
 
 <details>
-<summary>↝ Numbers</summary>
+<summary>:wavy_dash: ↝ Numbers</summary>
 
 ```
 Array<number>(10)
@@ -1468,7 +1468,7 @@ Array<number>(1000)
 </details>
 
 <details>
-<summary>↝ Objects</summary>
+<summary>:wavy_dash: ↝ Objects</summary>
 
 ```
 Array<object>(10)
@@ -1507,3 +1507,9 @@ Array<object>(1000)
   ramda.uniq     ⇝     (removed)
 ```
 </details>
+
+<br>
+
+> :no_entry_sign: -- Denotes function **is not** faster than native built-in <br>
+> :white_check_mark: -- Denotes function **is** faster than native built-in <br>
+> :wavy_dash: -- Denotes function has no native counterpart
