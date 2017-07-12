@@ -1,21 +1,19 @@
-# @arr/filter
+# @arr/filter.mutate
 
-> A tiny, faster alternative to native `Array.prototype.filter`
+> Fastest `Array.filter` alternative --- mutates original array!
 
-:warning: Unlike native, `@arr/filter` does _not_ support the optional `thisArg` parameter!
-
-:exclamation: Unlike native, `@arr/filter` **mutates** the original array! Use [link]() for a non-mutating version.
+:exclamation: Unlike native, `@arr/filter.mutate` **mutates** the original array! Use [`@arr/filter`](/packages/filter) for a non-mutating version.
 
 ## Install
 
 ```
-$ npm install --save @arr/filter
+$ npm install --save @arr/filter.mutate
 ```
 
 ## Usage
 
 ```js
-import filter from '@arr/filter';
+import filter from '@arr/filter.mutate';
 
 const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
 
@@ -40,7 +38,7 @@ Function to test for each element, taking three arguments:
 
 * **value** (required) -- The current element being processed in the array.
 * **index** (optional) -- The index of the current element being processed in the array.
-* **array** (optional) -- The array `filter` was called upon.
+* **array** (optional) -- The array `filter.mutate` was called upon.
 
 
 ## License

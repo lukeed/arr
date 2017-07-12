@@ -1,10 +1,10 @@
 'use strict';
 const test = require('tape');
-const fn = require('../packages/filter');
+const fn = require('../packages/filter.mutate');
 
 const foo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 
-test('@arr/filter', t => {
+test('@arr/filter.mutate', t => {
 	const bar = foo.slice();
 	const a = fn(bar, str => str > 3);
 	const b = bar.filter(str => str > 3);
@@ -15,7 +15,7 @@ test('@arr/filter', t => {
 	t.end();
 });
 
-test('@arr/filter - callback', t => {
+test('@arr/filter.mutate - callback', t => {
 	const bar = [4, 5, 6];
 	let x=6, y=2;
 	fn(bar, (val, idx, arr) => {

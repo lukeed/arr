@@ -1,8 +1,8 @@
 {
-  "name": "@arr/filter",
+  "name": "@arr/filter.mutate",
   "version": "0.1.0",
   "repository": "lukeed/arr",
-  "description": "A tiny, faster alternative to native Array.prototype.filter",
+  "description": "Fastest Array.filter alternative --- mutates original array!",
   "module": "module.js",
   "main": "index.js",
   "license": "MIT",
@@ -27,6 +27,8 @@
     "Array.filter",
     "Array.prototype.filter",
     "performance",
+    "mutator",
+    "mutate",
     "native",
     "filter"
   ],
