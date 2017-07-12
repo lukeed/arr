@@ -7,7 +7,7 @@ const SIZES = [ 100, 500, 1000, 5000, 10000 ];
 const TYPES = { string:'str', number:'int', object:'obj', array:'arr' };
 
 module.exports = function (type, size) {
-	const types = type ? [type] : Object.keys(TYPES);
+	const types = type ? [type] : Object.keys(TYPES).filter(k => k !== 'array');
 	const sizes = size ? [size] : SIZES;
 
 	if (type || size) {
