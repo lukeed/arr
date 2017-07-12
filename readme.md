@@ -1,23 +1,19 @@
-# arr
+# arr [![Build Status](https://travis-ci.org/lukeed/arr.svg?branch=master)](https://travis-ci.org/lukeed/arr)
 
-> A collection of tiny, highly performant `Array.prototype` alternatives. Fastest implementations!
+> A collection of tiny, highly performant `Array.prototype` alternatives and extra utilities.
 
-Definitely still active WIP~~~
+All exports are offered as CommonJS and ES6 modules. Additionally, every entry is ES3 code, which means that each package is ready for & compatible with any Browser or Node version!
 
-Interested? Be sure to **watch** the repository for updates!
+Please view each package's readme for Usage and important information! :pray:
 
-## Packages
-
-Please view each package's readme for Usage and important information!
-
-> **Important:** Most functions have _slight differences_ from the native built-ins!
+> :warning: **Note:** Most functions have _slight differences_ from the native built-ins!
 
 To view extensive benchmark results, visit the [Benchmarks section](/benchmarks/results).
 
 | Package | Version | Minified | Node 4 | Node 6 | Node 7 | Node 8 |
 |---------|:-------:|:-----:|:------:|:------:|:------:|:------:|
 | [`every`](/packages/every) | [![npm](https://img.shields.io/npm/v/@arr/every.svg?maxAge=86400)](https://www.npmjs.com/package/@arr/every) | 95 B | :white_check_mark: | -- | -- | -- |
-| [`filter`](/packages/filter) | [![npm](https://img.shields.io/npm/v/@arr/filter.svg?maxAge=86400)](https://www.npmjs.com/package/@arr/filter) | 86 B | :white_check_mark: | -- | -- | -- |
+| [`filter`](/packages/filter) | [![npm](https://img.shields.io/npm/v/@arr/filter.svg?maxAge=86400)](https://www.npmjs.com/package/@arr/filter) | 90 B | :white_check_mark: | -- | -- | -- |
 | [`find`](/packages/find) | [![npm](https://img.shields.io/npm/v/@arr/find.svg?maxAge=86400)](https://www.npmjs.com/package/@arr/find) | 91 B | :white_check_mark: | -- | -- | -- |
 | [`findIndex`](/packages/findIndex) | [![npm](https://img.shields.io/npm/v/@arr/findindex.svg?maxAge=86400)](https://www.npmjs.com/package/@arr/findindex) | 94 B | :white_check_mark: | -- | -- | -- |
 | [`flatten`](/packages/flatten) | [![npm](https://img.shields.io/npm/v/@arr/flatten.svg?maxAge=86400)](https://www.npmjs.com/package/@arr/flatten) | 151 B | :wavy_dash: | -- | -- | -- |
@@ -28,11 +24,12 @@ To view extensive benchmark results, visit the [Benchmarks section](/benchmarks/
 | [`reduceRight`](/packages/reduceRight) | [![npm](https://img.shields.io/npm/v/@arr/reduceright.svg?maxAge=86400)](https://www.npmjs.com/package/@arr/reduceright) | 130 B | :white_check_mark: | -- | -- | -- |
 | [`reverse`](/packages/reverse) | [![npm](https://img.shields.io/npm/v/@arr/reverse.svg?maxAge=86400)](https://www.npmjs.com/package/@arr/reverse) | 136 B | :white_check_mark: | -- | -- | -- |
 | [`some`](/packages/some) | [![npm](https://img.shields.io/npm/v/@arr/some.svg?maxAge=86400)](https://www.npmjs.com/package/@arr/some) | 94 B | :white_check_mark: | -- | -- | -- |
-| [`unique`](/packages/unique) | [![npm](https://img.shields.io/npm/v/@arr/unique.svg?maxAge=86400)](https://www.npmjs.com/package/@arr/unique) | 113 B | :wavy_dash: | -- | -- | -- |
+| [`unique`](/packages/unique) | [![npm](https://img.shields.io/npm/v/@arr/unique.svg?maxAge=86400)](https://www.npmjs.com/package/@arr/unique) | 111 B | :wavy_dash: | -- | -- | -- |
 
-> :no_entry_sign: &mdash; Denotes function **is not** faster than native built-in <br>
-> :white_check_mark: &mdash; Denotes function **is** faster than native built-in <br>
-> :wavy_dash: &mdash; Denotes function has no native counterpart
+> :white_check_mark: &mdash; Denotes function **is** faster than native <br>
+> :no_entry_sign: &mdash; Denotes function **is not** faster than native <br>
+> :mag: &mdash; Denotes function **is sometimes** faster than native <br>
+> :wavy_dash: &mdash; Denotes function has no native counterpart <br>
 
 ## License
 
