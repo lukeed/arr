@@ -8,7 +8,7 @@ Please view each package's readme for Usage and important information! :pray:
 
 > :warning: **Note:** Most functions have _slight differences_ from the native built-ins!
 
-To view extensive benchmark results, visit the [Benchmarks section](/benchmarks/results).
+To view extensive benchmark results, visit the [Benchmarks section](/benchmarks).
 
 | Package | Version | Minified | Node 4 | Node 6 | Node 7 | Node 8 |
 |---------|:-------:|:-----:|:------:|:------:|:------:|:------:|
