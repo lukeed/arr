@@ -12,8 +12,8 @@
     "bench": "node benchmarks",
     "build": "taskr build",
     "prebench": "taskr build",
-    "pretest": "lerna bootstrap",
-    "test": "lerna run test"
+    "pretest": "taskr build",
+    "test": "tape tests/* | tap-spec"
   },
   "devDependencies": {
     "benchmark": "^2.1.4",
