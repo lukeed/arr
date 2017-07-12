@@ -46,7 +46,7 @@ $ npm run bench -- flatten --type array
 
 ## Results:
 
-* [Node 4](/results/node-4.md)
-* [Node 6](/results/node-6.md)
-* [Node 7](/results/node-7.md)
-* [Node 8](/results/node-8.md)
+* [Node 4](/benchmarks/results/node-4.md)
+* [Node 6](/benchmarks/results/node-6.md)
+* [Node 7](/benchmarks/results/node-7.md)
+* [Node 8](/benchmarks/results/node-8.md)
