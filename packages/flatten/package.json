@@ -2,7 +2,7 @@
   "name": "@arr/flatten",
   "version": "0.1.0",
   "repository": "lukeed/arr",
-  "description": "Recursively flatten an array of arrays",
+  "description": "A tiny (139B) & fast utility to recursively flatten an array of arrays!",
   "module": "module.js",
   "main": "index.js",
   "license": "MIT",

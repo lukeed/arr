@@ -2,7 +2,7 @@
   "name": "@arr/unique",
   "version": "0.1.0",
   "repository": "lukeed/arr",
-  "description": "A tiny, faster alternative to native Array.prototype.unique",
+  "description": "A tiny (111B) & fast utility to retrieve all unique values from an Array",
   "module": "module.js",
   "main": "index.js",
   "license": "MIT",
