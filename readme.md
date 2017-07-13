@@ -19,7 +19,7 @@ To view extensive benchmark results, visit the [Benchmarks section](/benchmarks)
 | [`findIndex`](/packages/findIndex) | [![npm](https://img.shields.io/npm/v/@arr/findindex.svg?maxAge=86400)](https://www.npmjs.com/package/@arr/findindex) | 94 B | :white_check_mark: | -- | -- | -- |
 | [`flatten`](/packages/flatten) | [![npm](https://img.shields.io/npm/v/@arr/flatten.svg?maxAge=86400)](https://www.npmjs.com/package/@arr/flatten) | 151 B | :wavy_dash: | -- | -- | -- |
 | [`forEach`](/packages/forEach) | [![npm](https://img.shields.io/npm/v/@arr/foreach.svg?maxAge=86400)](https://www.npmjs.com/package/@arr/foreach) | 73 B | :white_check_mark: | -- | -- | -- |
-| [`includes`](/packages/includes) | [![npm](https://img.shields.io/npm/v/@arr/includes.svg?maxAge=86400)](https://www.npmjs.com/package/@arr/includes) | 58 B | :wavy_dash: | -- | -- | -- |
+| [`includes`](/packages/includes) | [![npm](https://img.shields.io/npm/v/@arr/includes.svg?maxAge=86400)](https://www.npmjs.com/package/@arr/includes) | 95 B | :wavy_dash: | -- | -- | -- |
 | [`map`](/packages/map) | [![npm](https://img.shields.io/npm/v/@arr/map.svg?maxAge=86400)](https://www.npmjs.com/package/@arr/map) | 122 B | :white_check_mark: | -- | -- | -- |
 | [`reduce`](/packages/reduce) | [![npm](https://img.shields.io/npm/v/@arr/reduce.svg?maxAge=86400)](https://www.npmjs.com/package/@arr/reduce) | 137 B | :white_check_mark: | -- | -- | -- |
 | [`reduceRight`](/packages/reduceRight) | [![npm](https://img.shields.io/npm/v/@arr/reduceright.svg?maxAge=86400)](https://www.npmjs.com/package/@arr/reduceright) | 130 B | :white_check_mark: | -- | -- | -- |

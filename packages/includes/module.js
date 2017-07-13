@@ -1,3 +1,11 @@
 export default function (arr, val, idx) {
-	return arr.indexOf(val, idx) !== -1;
+	var i=idx|0, len=arr.length;
+
+	for (; i < len; i++) {
+		if (arr[i] === val) {
+			return true;
+		}
+	}
+
+	return false;
 }
