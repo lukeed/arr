@@ -532,7 +532,7 @@ Array<object>(10000)
 ## flatten
 
 <details>
-<summary>:wavy_dash: ↝ Strings</summary>
+<summary>:wavy_dash: ↝ Arrays</summary>
 
 ```
 Array<array>(5)
