@@ -146,49 +146,54 @@ Array<object>(10000)
 
 ```
 Array<string>(100)
-  native          ⇝   271.71ms   @    11,041,250.99 op/s
-  @arr/filter     ⇝     6.90ms   @   434,546,819.81 op/s
-  arr-filter      ⇝    24.79ms   @   121,022,602.26 op/s
-  array-filter    ⇝   254.99ms   @    11,765,230.43 op/s
-  lodash.filter   ⇝    23.74ms   @   126,365,510.98 op/s
-  fastjs.filter   ⇝    21.81ms   @   137,531,516.49 op/s
-  ramda.filter    ⇝    42.72ms   @    70,218,012.89 op/s
+  native               ⇝   257.49ms   @    11,650,895.46 op/s
+  @arr/filter          ⇝    23.04ms   @   130,185,290.99 op/s
+  @arr/filter.mutate   ⇝     6.80ms   @   441,121,979.05 op/s
+  arr-filter           ⇝    23.58ms   @   127,227,472.08 op/s
+  array-filter         ⇝   247.33ms   @    12,129,763.63 op/s
+  lodash.filter        ⇝    23.82ms   @   125,928,354.32 op/s
+  fastjs.filter        ⇝    22.20ms   @   135,118,208.84 op/s
+  ramda.filter         ⇝    41.54ms   @    72,211,269.38 op/s
 
 Array<string>(500)
-  native          ⇝   1,248.81ms   @    12,011,431.26 op/s
-  @arr/filter     ⇝      27.27ms   @   550,093,614.93 op/s
-  arr-filter      ⇝      89.84ms   @   166,971,623.64 op/s
-  array-filter    ⇝   1,236.15ms   @    12,134,412.38 op/s
-  lodash.filter   ⇝      93.80ms   @   159,910,537.09 op/s
-  fastjs.filter   ⇝      84.36ms   @   177,800,544.68 op/s
-  ramda.filter    ⇝     105.12ms   @   142,697,304.21 op/s
+  native               ⇝   1,228.09ms   @    12,214,084.11 op/s
+  @arr/filter          ⇝      91.75ms   @   163,496,083.40 op/s
+  @arr/filter.mutate   ⇝      27.27ms   @   550,093,614.93 op/s
+  arr-filter           ⇝      94.72ms   @   158,367,401.86 op/s
+  array-filter         ⇝   1,216.80ms   @    12,327,366.05 op/s
+  lodash.filter        ⇝     102.64ms   @   146,143,448.31 op/s
+  fastjs.filter        ⇝      88.54ms   @   169,421,689.23 op/s
+  ramda.filter         ⇝     105.32ms   @   142,421,195.65 op/s
 
 Array<string>(1000)
-  native          ⇝   2,456.56ms   @    12,212,177.01 op/s
-  @arr/filter     ⇝      57.96ms   @   517,633,254.46 op/s
-  arr-filter      ⇝     175.23ms   @   171,203,360.74 op/s
-  array-filter    ⇝   2,448.06ms   @    12,254,616.88 op/s
-  lodash.filter   ⇝     194.98ms   @   153,863,979.19 op/s
-  fastjs.filter   ⇝     181.52ms   @   165,273,900.75 op/s
-  ramda.filter    ⇝     207.05ms   @   144,895,228.10 op/s
+  native               ⇝   2,473.53ms   @    12,128,402.45 op/s
+  @arr/filter          ⇝     186.49ms   @   160,869,740.75 op/s
+  @arr/filter.mutate   ⇝      54.92ms   @   546,226,442.87 op/s
+  arr-filter           ⇝     177.85ms   @   168,684,140.23 op/s
+  array-filter         ⇝   2,441.74ms   @    12,286,313.43 op/s
+  lodash.filter        ⇝     207.62ms   @   144,493,356.73 op/s
+  fastjs.filter        ⇝     194.51ms   @   154,231,893.35 op/s
+  ramda.filter         ⇝     201.45ms   @   148,917,359.63 op/s
 
 Array<string>(5000)
-  native          ⇝   12,270.43ms   @    12,224,507.80 op/s
-  @arr/filter     ⇝      267.56ms   @   560,621,765.72 op/s
-  arr-filter      ⇝      885.24ms   @   169,445,191.26 op/s
-  array-filter    ⇝   12,245.00ms   @    12,249,900.39 op/s
-  lodash.filter   ⇝    1,000.57ms   @   149,915,240.92 op/s
-  fastjs.filter   ⇝      913.72ms   @   164,164,189.53 op/s
-  ramda.filter    ⇝      914.24ms   @   164,070,517.61 op/s
+  native               ⇝   12,349.57ms   @    12,146,176.57 op/s
+  @arr/filter          ⇝      964.03ms   @   155,596,514.74 op/s
+  @arr/filter.mutate   ⇝      268.53ms   @   558,602,579.53 op/s
+  arr-filter           ⇝      895.69ms   @   167,468,079.58 op/s
+  array-filter         ⇝   12,077.47ms   @    12,419,817.48 op/s
+  lodash.filter        ⇝    1,037.29ms   @   144,607,527.18 op/s
+  fastjs.filter        ⇝      951.91ms   @   157,577,664.54 op/s
+  ramda.filter         ⇝      947.25ms   @   158,353,764.07 op/s
 
 Array<string>(10000)
-  native          ⇝   24,287.17ms   @    12,352,202.27 op/s
-  @arr/filter     ⇝      541.63ms   @   553,880,344.45 op/s
-  arr-filter      ⇝    1,771.77ms   @   169,322,352.21 op/s
-  array-filter    ⇝   24,305.78ms   @    12,342,744.51 op/s
-  lodash.filter   ⇝    2,164.95ms   @   138,571,189.80 op/s
-  fastjs.filter   ⇝    1,981.03ms   @   151,436,060.51 op/s
-  ramda.filter    ⇝    1,965.62ms   @   152,623,844.96 op/s
+  native               ⇝   23,810.11ms   @    12,599,690.32 op/s
+  @arr/filter          ⇝    2,022.30ms   @   148,346,278.12 op/s
+  @arr/filter.mutate   ⇝      536.16ms   @   559,530,137.48 op/s
+  arr-filter           ⇝    1,792.55ms   @   167,359,804.31 op/s
+  array-filter         ⇝   23,804.57ms   @    12,602,623.81 op/s
+  lodash.filter        ⇝    2,219.69ms   @   135,153,766.08 op/s
+  fastjs.filter        ⇝    2,038.14ms   @   147,192,785.34 op/s
+  ramda.filter         ⇝    2,013.15ms   @   149,020,560.95 op/s
 ```
 </details>
 
@@ -197,49 +202,54 @@ Array<string>(10000)
 
 ```
 Array<number>(100)
-  native          ⇝   255.00ms   @    11,764,857.03 op/s
-  @arr/filter     ⇝     6.97ms   @   430,386,182.65 op/s
-  arr-filter      ⇝    26.93ms   @   111,388,762.04 op/s
-  array-filter    ⇝   241.62ms   @    12,415,947.09 op/s
-  lodash.filter   ⇝    22.58ms   @   132,840,977.44 op/s
-  fastjs.filter   ⇝    20.61ms   @   145,587,914.57 op/s
-  ramda.filter    ⇝    41.22ms   @    72,773,535.53 op/s
+  native               ⇝   251.79ms   @    11,914,925.67 op/s
+  @arr/filter          ⇝    19.46ms   @   154,135,327.53 op/s
+  @arr/filter.mutate   ⇝     5.95ms   @   504,067,488.59 op/s
+  arr-filter           ⇝    20.90ms   @   143,558,803.60 op/s
+  array-filter         ⇝   248.14ms   @    12,089,763.64 op/s
+  lodash.filter        ⇝    20.74ms   @   144,648,427.66 op/s
+  fastjs.filter        ⇝    18.80ms   @   159,567,898.64 op/s
+  ramda.filter         ⇝    38.25ms   @    78,437,889.56 op/s
 
 Array<number>(500)
-  native          ⇝   1,183.11ms   @    12,678,484.94 op/s
-  @arr/filter     ⇝      27.51ms   @   545,249,472.17 op/s
-  arr-filter      ⇝      87.68ms   @   171,078,819.84 op/s
-  array-filter    ⇝   1,181.46ms   @    12,696,152.57 op/s
-  lodash.filter   ⇝      92.75ms   @   161,725,412.63 op/s
-  fastjs.filter   ⇝      79.55ms   @   188,566,153.03 op/s
-  ramda.filter    ⇝     109.53ms   @   136,950,129.03 op/s
+  native               ⇝   1,214.39ms   @    12,351,925.58 op/s
+  @arr/filter          ⇝      83.95ms   @   178,682,875.63 op/s
+  @arr/filter.mutate   ⇝      27.51ms   @   545,249,472.17 op/s
+  arr-filter           ⇝      90.54ms   @   165,674,424.13 op/s
+  array-filter         ⇝   1,197.37ms   @    12,527,475.68 op/s
+  lodash.filter        ⇝      93.19ms   @   160,955,084.29 op/s
+  fastjs.filter        ⇝      83.85ms   @   178,890,080.79 op/s
+  ramda.filter         ⇝     101.12ms   @   148,334,042.57 op/s
 
 Array<number>(1000)
-  native          ⇝   2,373.64ms   @    12,638,828.72 op/s
-  @arr/filter     ⇝      58.09ms   @   516,465,007.74 op/s
-  arr-filter      ⇝     175.95ms   @   170,499,851.92 op/s
-  array-filter    ⇝   2,364.22ms   @    12,689,171.04 op/s
-  lodash.filter   ⇝     203.75ms   @   147,238,648.11 op/s
-  fastjs.filter   ⇝     180.92ms   @   165,819,587.44 op/s
-  ramda.filter    ⇝     203.98ms   @   147,076,208.80 op/s
+  native               ⇝   2,431.00ms   @    12,340,596.80 op/s
+  @arr/filter          ⇝     175.39ms   @   171,044,613.41 op/s
+  @arr/filter.mutate   ⇝      54.18ms   @   553,706,841.20 op/s
+  arr-filter           ⇝     177.61ms   @   168,909,440.59 op/s
+  array-filter         ⇝   2,399.03ms   @    12,505,044.63 op/s
+  lodash.filter        ⇝     193.24ms   @   155,251,089.42 op/s
+  fastjs.filter        ⇝     177.92ms   @   168,611,502.93 op/s
+  ramda.filter         ⇝     191.44ms   @   156,710,407.01 op/s
 
 Array<number>(5000)
-  native          ⇝   11,935.52ms   @    12,567,526.35 op/s
-  @arr/filter     ⇝      267.64ms   @   560,448,882.49 op/s
-  arr-filter      ⇝      891.16ms   @   168,319,984.10 op/s
-  array-filter    ⇝   11,855.15ms   @    12,652,732.20 op/s
-  lodash.filter   ⇝    1,025.77ms   @   146,231,144.93 op/s
-  fastjs.filter   ⇝      895.20ms   @   167,559,650.13 op/s
-  ramda.filter    ⇝      938.12ms   @   159,894,349.66 op/s
+  native               ⇝   12,030.60ms   @    12,468,202.57 op/s
+  @arr/filter          ⇝      904.28ms   @   165,878,006.14 op/s
+  @arr/filter.mutate   ⇝      267.64ms   @   560,448,882.49 op/s
+  arr-filter           ⇝      895.49ms   @   167,506,667.56 op/s
+  array-filter         ⇝   12,103.26ms   @    12,393,359.05 op/s
+  lodash.filter        ⇝      995.16ms   @   150,730,108.00 op/s
+  fastjs.filter        ⇝      909.16ms   @   164,987,614.12 op/s
+  ramda.filter         ⇝      899.94ms   @   166,677,405.14 op/s
 
 Array<number>(10000)
-  native          ⇝   23,372.65ms   @    12,835,517.36 op/s
-  @arr/filter     ⇝      533.94ms   @   561,858,188.34 op/s
-  arr-filter      ⇝    1,765.26ms   @   169,946,961.20 op/s
-  array-filter    ⇝   23,334.54ms   @    12,856,477.93 op/s
-  lodash.filter   ⇝    2,180.29ms   @   137,596,527.58 op/s
-  fastjs.filter   ⇝    1,940.28ms   @   154,616,770.73 op/s
-  ramda.filter    ⇝    1,971.54ms   @   152,165,483.12 op/s
+  native               ⇝   23,859.67ms   @    12,573,519.99 op/s
+  @arr/filter          ⇝    1,935.55ms   @   154,994,880.36 op/s
+  @arr/filter.mutate   ⇝      533.94ms   @   561,858,188.34 op/s
+  arr-filter           ⇝    1,779.69ms   @   168,568,586.32 op/s
+  array-filter         ⇝   23,757.77ms   @    12,627,448.98 op/s
+  lodash.filter        ⇝    2,123.11ms   @   141,302,470.43 op/s
+  fastjs.filter        ⇝    1,941.60ms   @   154,511,708.75 op/s
+  ramda.filter         ⇝    1,915.82ms   @   156,591,228.35 op/s
 ```
 </details>
 
@@ -248,49 +258,54 @@ Array<number>(10000)
 
 ```
 Array<object>(100)
-  native          ⇝   266.61ms   @    11,252,583.42 op/s
-  @arr/filter     ⇝     6.90ms   @   434,614,935.51 op/s
-  arr-filter      ⇝    27.37ms   @   109,622,630.67 op/s
-  array-filter    ⇝   248.15ms   @    12,089,704.15 op/s
-  lodash.filter   ⇝    23.66ms   @   126,787,202.98 op/s
-  fastjs.filter   ⇝    21.57ms   @   139,061,447.41 op/s
-  ramda.filter    ⇝    41.80ms   @    71,770,420.78 op/s
+  native               ⇝   264.99ms   @    11,321,104.39 op/s
+  @arr/filter          ⇝    21.25ms   @   141,148,725.73 op/s
+  @arr/filter.mutate   ⇝     6.14ms   @   488,385,938.20 op/s
+  arr-filter           ⇝    20.96ms   @   143,096,454.64 op/s
+  array-filter         ⇝   245.64ms   @    12,213,172.32 op/s
+  lodash.filter        ⇝    21.87ms   @   137,195,019.47 op/s
+  fastjs.filter        ⇝    19.55ms   @   153,464,256.08 op/s
+  ramda.filter         ⇝    38.96ms   @    77,003,850.01 op/s
 
 Array<object>(500)
-  native          ⇝   1,210.37ms   @    12,392,894.78 op/s
-  @arr/filter     ⇝      27.41ms   @   547,334,649.93 op/s
-  arr-filter      ⇝      89.80ms   @   167,031,891.18 op/s
-  array-filter    ⇝   1,211.05ms   @    12,385,967.54 op/s
-  lodash.filter   ⇝     100.80ms   @   148,815,814.53 op/s
-  fastjs.filter   ⇝      88.58ms   @   169,333,190.28 op/s
-  ramda.filter    ⇝     109.48ms   @   137,015,373.65 op/s
+  native               ⇝   1,213.72ms   @    12,358,652.38 op/s
+  @arr/filter          ⇝      87.93ms   @   170,596,140.25 op/s
+  @arr/filter.mutate   ⇝      27.44ms   @   546,623,265.75 op/s
+  arr-filter           ⇝      89.85ms   @   166,952,435.44 op/s
+  array-filter         ⇝   1,212.71ms   @    12,368,987.76 op/s
+  lodash.filter        ⇝      97.69ms   @   153,547,187.24 op/s
+  fastjs.filter        ⇝      91.11ms   @   164,637,500.33 op/s
+  ramda.filter         ⇝     105.12ms   @   142,693,653.98 op/s
 
 Array<object>(1000)
-  native          ⇝   2,403.35ms   @    12,482,563.59 op/s
-  @arr/filter     ⇝      53.85ms   @   557,102,670.94 op/s
-  arr-filter      ⇝     177.11ms   @   169,383,643.35 op/s
-  array-filter    ⇝   2,406.14ms   @    12,468,114.51 op/s
-  lodash.filter   ⇝     203.22ms   @   147,620,587.16 op/s
-  fastjs.filter   ⇝     184.39ms   @   162,698,203.49 op/s
-  ramda.filter    ⇝     201.94ms   @   148,559,389.88 op/s
+  native               ⇝   2,408.05ms   @    12,458,199.18 op/s
+  @arr/filter          ⇝     185.36ms   @   161,845,697.83 op/s
+  @arr/filter.mutate   ⇝      53.85ms   @   557,102,670.94 op/s
+  arr-filter           ⇝     189.58ms   @   158,244,675.79 op/s
+  array-filter         ⇝   2,418.84ms   @    12,402,621.04 op/s
+  lodash.filter        ⇝     202.31ms   @   148,288,895.18 op/s
+  fastjs.filter        ⇝     184.85ms   @   162,298,117.98 op/s
+  ramda.filter         ⇝     200.65ms   @   149,511,832.65 op/s
 
 Array<object>(5000)
-  native          ⇝   12,024.92ms   @    12,474,099.14 op/s
-  @arr/filter     ⇝      281.93ms   @   532,037,937.77 op/s
-  arr-filter      ⇝      894.02ms   @   167,780,853.08 op/s
-  array-filter    ⇝   12,060.41ms   @    12,437,385.37 op/s
-  lodash.filter   ⇝    1,060.36ms   @   141,460,817.48 op/s
-  fastjs.filter   ⇝      977.13ms   @   153,511,501.61 op/s
-  ramda.filter    ⇝      967.83ms   @   154,986,543.72 op/s
+  native               ⇝   12,101.25ms   @    12,395,415.59 op/s
+  @arr/filter          ⇝      991.12ms   @   151,343,944.67 op/s
+  @arr/filter.mutate   ⇝      271.44ms   @   552,612,999.81 op/s
+  arr-filter           ⇝      893.42ms   @   167,893,828.40 op/s
+  array-filter         ⇝   12,086.00ms   @    12,411,052.54 op/s
+  lodash.filter        ⇝    1,084.38ms   @   138,327,653.38 op/s
+  fastjs.filter        ⇝      980.99ms   @   152,906,463.33 op/s
+  ramda.filter         ⇝      978.25ms   @   153,335,553.53 op/s
 
 Array<object>(10000)
-  native          ⇝   23,846.09ms   @    12,580,680.85 op/s
-  @arr/filter     ⇝      538.47ms   @   557,133,890.07 op/s
-  arr-filter      ⇝    1,779.57ms   @   168,580,145.25 op/s
-  array-filter    ⇝   23,842.39ms   @    12,582,631.15 op/s
-  lodash.filter   ⇝    2,291.46ms   @   130,921,157.38 op/s
-  fastjs.filter   ⇝    2,126.34ms   @   141,087,643.67 op/s
-  ramda.filter    ⇝    2,102.43ms   @   142,691,962.23 op/s
+  native               ⇝   23,839.74ms   @    12,584,029.89 op/s
+  @arr/filter          ⇝    2,120.38ms   @   141,483,755.93 op/s
+  @arr/filter.mutate   ⇝      534.50ms   @   561,267,290.05 op/s
+  arr-filter           ⇝    1,774.87ms   @   169,026,311.16 op/s
+  array-filter         ⇝   23,866.24ms   @    12,570,055.62 op/s
+  lodash.filter        ⇝    2,304.91ms   @   130,157,113.12 op/s
+  fastjs.filter        ⇝    2,123.60ms   @   141,269,569.10 op/s
+  ramda.filter         ⇝    2,110.00ms   @   142,180,158.94 op/s
 ```
 </details>
 
@@ -705,7 +720,91 @@ Array<object>(10000)
 
 ## includes
 
-> Node 4 does not support `Array.prototype.includes` and there are no other libs to compare against.
+> Node 4 does not support `Array.prototype.includes` and there are no known libs to compare against.
+
+<details>
+<summary>:wavy_dash: ↝ Strings (`true`)</summary>
+
+```
+Array<string>(100)
+  @arr/includes   ⇝   47.46ms   @   63,213,662.50 op/s
+
+Array<string>(500)
+  @arr/includes   ⇝   233.25ms   @   64,308,778.17 op/s
+
+Array<string>(1000)
+  @arr/includes   ⇝   526.53ms   @   56,976,987.26 op/s
+
+Array<string>(5000)
+  @arr/includes   ⇝   2,393.71ms   @   62,664,317.20 op/s
+
+Array<string>(10000)
+  @arr/includes   ⇝   5,370.82ms   @   55,857,364.19 op/s
+```
+</details>
+
+<details>
+<summary>:wavy_dash: ↝ Strings (`false`)</summary>
+
+```
+Array<string>(100)
+  @arr/includes   ⇝   44.00ms   @   68,177,132.55 op/s
+
+Array<string>(500)
+  @arr/includes   ⇝   257.59ms   @   58,232,821.61 op/s
+
+Array<string>(1000)
+  @arr/includes   ⇝   524.52ms   @   57,195,304.37 op/s
+
+Array<string>(5000)
+  @arr/includes   ⇝   2,611.00ms   @   57,449,242.36 op/s
+
+Array<string>(10000)
+  @arr/includes   ⇝   5,495.17ms   @   54,593,424.33 op/s
+```
+</details>
+
+<details>
+<summary>:wavy_dash: ↝ Numbers (`true`)</summary>
+
+```
+Array<number>(100)
+  @arr/includes   ⇝   6.03ms   @   497,375,515.20 op/s
+
+Array<number>(500)
+  @arr/includes   ⇝   21.96ms   @   683,020,670.76 op/s
+
+Array<number>(1000)
+  @arr/includes   ⇝   43.44ms   @   690,617,257.82 op/s
+
+Array<number>(5000)
+  @arr/includes   ⇝   214.17ms   @   700,377,030.23 op/s
+
+Array<number>(10000)
+  @arr/includes   ⇝   432.08ms   @   694,323,493.93 op/s
+```
+</details>
+
+<details>
+<summary>:wavy_dash: ↝ Numbers (`false`)</summary>
+
+```
+Array<number>(100)
+  @arr/includes   ⇝   19.29ms   @   155,520,100.43 op/s
+
+Array<number>(500)
+  @arr/includes   ⇝   89.29ms   @   167,995,981.54 op/s
+
+Array<number>(1000)
+  @arr/includes   ⇝   181.02ms   @   165,729,481.18 op/s
+
+Array<number>(5000)
+  @arr/includes   ⇝   903.27ms   @   166,064,062.44 op/s
+
+Array<number>(10000)
+  @arr/includes   ⇝   1,791.33ms   @   167,473,129.90 op/s
+```
+</details>
 
 
 ## map
@@ -1389,40 +1488,33 @@ Array<object>(10000)
 <summary>:wavy_dash: ↝ Strings</summary>
 
 ```
-Array<string>(10)
-  @arr/unique    ⇝    7.70ms   @   38,972,801.66 op/s
-  arr-uniq       ⇝   88.44ms   @    3,392,066.47 op/s
-  array-unique   ⇝   28.62ms   @   10,481,077.62 op/s
-  lodash.uniq    ⇝   35.21ms   @    8,521,421.95 op/s
-  ramda.uniq     ⇝   56.13ms   @    5,345,063.59 op/s
+Array<string>(5)
+  @arr/unique        ⇝   11.63ms   @   12,898,412.62 op/s
+  arr-uniq           ⇝   33.85ms   @    4,430,684.12 op/s
+  array-unique       ⇝    7.65ms   @   19,615,137.92 op/s
+  lodash.uniq        ⇝   11.16ms   @   13,445,200.99 op/s
+  ramda.uniq         ⇝   33.84ms   @    4,432,223.85 op/s
 
-Array<string>(50)
-  @arr/unique    ⇝      41.26ms   @   36,358,005.06 op/s
-  arr-uniq       ⇝   1,175.12ms   @    1,276,465.66 op/s
-  array-unique   ⇝     699.28ms   @    2,145,074.75 op/s
-  lodash.uniq    ⇝     629.14ms   @    2,384,198.00 op/s
-  ramda.uniq     ⇝     216.07ms   @    6,942,071.03 op/s
+Array<string>(10)
+  @arr/unique        ⇝   26.94ms   @   11,133,922.46 op/s
+  arr-uniq           ⇝   70.47ms   @    4,257,259.43 op/s
+  array-unique       ⇝   32.06ms   @    9,357,018.44 op/s
+  lodash.uniq        ⇝   30.17ms   @    9,944,600.95 op/s
+  ramda.uniq         ⇝   55.34ms   @    5,420,706.94 op/s
 
 Array<string>(100)
-  @arr/unique    ⇝      58.71ms   @   51,101,482.23 op/s
-  arr-uniq       ⇝   5,128.84ms   @      584,927.34 op/s
-  array-unique   ⇝   3,113.97ms   @      963,401.19 op/s
-  lodash.uniq    ⇝   2,787.19ms   @    1,076,352.44 op/s
-  ramda.uniq     ⇝     439.56ms   @    6,825,064.51 op/s
+  @arr/unique        ⇝   2,706.14ms   @   1,108,588.27 op/s
+  arr-uniq           ⇝   4,728.29ms   @     634,478.31 op/s
+  array-unique       ⇝   3,045.99ms   @     984,900.01 op/s
+  lodash.uniq        ⇝   2,683.06ms   @   1,118,124.65 op/s
+  ramda.uniq         ⇝     411.02ms   @   7,298,947.52 op/s
 
 Array<string>(500)
-  @arr/unique    ⇝       235.07ms   @   63,810,174.16 op/s
-  arr-uniq       ⇝   124,080.12ms   @      120,889.64 op/s
-  array-unique   ⇝    78,791.25ms   @      190,376.47 op/s
-  lodash.uniq    ⇝     2,965.39ms   @    5,058,358.18 op/s
-  ramda.uniq     ⇝     2,038.87ms   @    7,357,018.66 op/s
-
-Array<string>(1000)
-  @arr/unique    ⇝       475.73ms   @   63,060,685.43 op/s
-  arr-uniq       ⇝   491,311.69ms   @       61,061.03 op/s
-  array-unique   ⇝   313,261.34ms   @       95,766.69 op/s
-  lodash.uniq    ⇝     5,886.91ms   @    5,096,055.16 op/s
-  ramda.uniq     ⇝     4,082.19ms   @    7,349,003.86 op/s
+  @arr/unique        ⇝    66,386.51ms   @     225,949.52 op/s
+  arr-uniq           ⇝   115,438.75ms   @     129,939.04 op/s
+  array-unique       ⇝    74,420.87ms   @     201,556.37 op/s
+  lodash.uniq        ⇝     2,904.71ms   @   5,164,024.03 op/s
+  ramda.uniq         ⇝     1,981.59ms   @   7,569,691.63 op/s
 ```
 </details>
 
@@ -1430,40 +1522,33 @@ Array<string>(1000)
 <summary>:wavy_dash: ↝ Numbers</summary>
 
 ```
-Array<number>(10)
-  @arr/unique    ⇝    7.26ms   @   41,345,578.06 op/s
-  arr-uniq       ⇝   57.00ms   @    5,263,421.90 op/s
-  array-unique   ⇝    7.72ms   @   38,844,304.26 op/s
-  lodash.uniq    ⇝   10.32ms   @   29,063,309.87 op/s
-  ramda.uniq     ⇝   46.39ms   @    6,467,217.26 op/s
+Array<number>(5)
+  @arr/unique        ⇝    4.50ms   @   33,305,497.34 op/s
+  arr-uniq           ⇝   24.23ms   @    6,190,264.46 op/s
+  array-unique       ⇝    2.74ms   @   54,784,314.16 op/s
+  lodash.uniq        ⇝    6.16ms   @   24,357,648.22 op/s
+  ramda.uniq         ⇝   31.79ms   @    4,719,132.64 op/s
 
-Array<number>(50)
-  @arr/unique    ⇝    42.24ms   @   35,509,470.47 op/s
-  arr-uniq       ⇝   603.53ms   @    2,485,384.64 op/s
-  array-unique   ⇝   138.20ms   @   10,853,586.46 op/s
-  lodash.uniq    ⇝    90.67ms   @   16,543,723.64 op/s
-  ramda.uniq     ⇝   173.03ms   @    8,668,897.94 op/s
+Array<number>(10)
+  @arr/unique        ⇝    6.84ms   @   43,843,342.48 op/s
+  arr-uniq           ⇝   59.52ms   @    5,040,194.29 op/s
+  array-unique       ⇝    7.51ms   @   39,934,225.67 op/s
+  lodash.uniq        ⇝    8.82ms   @   34,022,118.69 op/s
+  ramda.uniq         ⇝   55.41ms   @    5,413,931.23 op/s
 
 Array<number>(100)
-  @arr/unique    ⇝      59.96ms   @   50,037,382.93 op/s
-  arr-uniq       ⇝   2,126.50ms   @    1,410,767.93 op/s
-  array-unique   ⇝     510.16ms   @    5,880,493.67 op/s
-  lodash.uniq    ⇝     317.26ms   @    9,455,959.71 op/s
-  ramda.uniq     ⇝     324.91ms   @    9,233,299.33 op/s
+  @arr/unique        ⇝     189.15ms   @   15,860,442.65 op/s
+  arr-uniq           ⇝   2,154.48ms   @    1,392,448.23 op/s
+  array-unique       ⇝     509.01ms   @    5,893,777.47 op/s
+  lodash.uniq        ⇝     322.03ms   @    9,315,972.22 op/s
+  ramda.uniq         ⇝     331.24ms   @    9,056,970.89 op/s
 
 Array<number>(500)
-  @arr/unique    ⇝      244.12ms   @   61,445,728.78 op/s
-  arr-uniq       ⇝   49,270.21ms   @      304,443.58 op/s
-  array-unique   ⇝   11,589.13ms   @    1,294,316.50 op/s
-  lodash.uniq    ⇝    2,590.45ms   @    5,790,494.95 op/s
-  ramda.uniq     ⇝    1,539.32ms   @    9,744,549.01 op/s
-
-Array<number>(1000)
-  @arr/unique    ⇝       500.55ms   @   59,934,264.70 op/s
-  arr-uniq       ⇝   194,176.54ms   @      154,498.58 op/s
-  array-unique   ⇝    45,136.62ms   @      664,648.76 op/s
-  lodash.uniq    ⇝     5,044.51ms   @    5,947,059.11 op/s
-  ramda.uniq     ⇝     2,963.35ms   @   10,123,694.15 op/s
+  @arr/unique        ⇝    3,583.62ms   @    4,185,717.47 op/s
+  arr-uniq           ⇝   49,149.22ms   @      305,193.02 op/s
+  array-unique       ⇝   11,488.69ms   @    1,305,631.55 op/s
+  lodash.uniq        ⇝    2,531.68ms   @    5,924,926.21 op/s
+  ramda.uniq         ⇝    1,459.02ms   @   10,280,903.97 op/s
 ```
 </details>
 
@@ -1510,6 +1595,7 @@ Array<object>(1000)
 
 <br>
 
-> :no_entry_sign: &mdash; Denotes function **is not** faster than native built-in <br>
-> :white_check_mark: &mdash; Denotes function **is** faster than native built-in <br>
-> :wavy_dash: &mdash; Denotes function has no native counterpart
+> :white_check_mark: &mdash; Denotes function **is** faster than native <br>
+> :no_entry_sign: &mdash; Denotes function **is not** faster than native <br>
+> :mag: &mdash; Denotes function **is sometimes** faster than native <br>
+> :wavy_dash: &mdash; Denotes function has no native counterpart <br>
