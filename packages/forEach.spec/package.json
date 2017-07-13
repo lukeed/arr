@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "@arr/foreach.spec",
   "version": "0.1.0",
   "repository": "lukeed/arr",
