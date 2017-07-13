@@ -1,6 +1,6 @@
 {
   "name": "@arr/filter.mutate",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": "lukeed/arr",
   "description": "Fastest Array.filter alternative --- mutates original array!",
   "module": "module.js",
