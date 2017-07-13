@@ -1,6 +1,6 @@
 {
   "name": "@arr/every",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "repository": "lukeed/arr",
   "description": "A tiny, faster alternative to native Array.prototype.every",
   "module": "module.js",
