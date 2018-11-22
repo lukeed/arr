@@ -1,6 +1,6 @@
 'use strict';
 
-const chalk = require('chalk');
+const colors = require('kleur');
 const lpad = require('pad-left');
 const rpad = require('pad-right');
 const clone = require('lodash.clone');
@@ -17,10 +17,10 @@ const toNano = arr => arr[0] * 1e9 + arr[1];
 const glob = str => sync(str, { cwd });
 
 function retrieve(file, type, size) {
-	console.log(chalk.dim('> Constructing all fixture data'));
+	console.log(colors.dim('> Constructing all fixture data'));
 	const funcs = require(`./${file}`);
 	const datas = gen(type, size);
-	console.log(chalk.dim('> Fixtures ready!'));
+	console.log(colors.dim('> Fixtures ready!'));
 	return { funcs, datas };
 }
 
@@ -47,7 +47,7 @@ function report(arr, testname) {
 	for (; i < len; i++) {
 		console.log(`  ${ rpad(arr[i].name, max.name, ' ') }   ⇝   ${ lpad(arr[i].ms, max.ms, ' ') }   @   ${ lpad(arr[i].ops, max.ops, ' ') }`);
 	}
-	console.log(chalk.blue('\n    ➤ ') + 'Fastest is: ' + chalk.green(fastest.name) + '!\n\n');
+	console.log(colors.blue('\n    ➤ ') + 'Fastest is: ' + colors.green(fastest.name) + '!\n\n');
 }
 
 function run(fns, data, testname) {

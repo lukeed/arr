@@ -12,12 +12,12 @@
     "array-map": "^0.0.0",
     "array-uniq": "^1.0.3",
     "array-unique": "^0.3.2",
-    "chalk": "^2.0.1",
     "compute-reverse": "^1.1.0",
     "fast.js": "^0.1.1",
     "flatten": "^1.0.2",
     "flatten-array": "^1.0.0",
     "glob": "^7.1.2",
+    "kleur": "^3.0.0",
     "lodash.clone": "^4.5.0",
     "lodash.every": "^4.6.0",
     "lodash.filter": "^4.6.0",
@@ -37,6 +37,6 @@
     "pad-left": "^2.1.0",
     "pad-right": "^0.2.2",
     "ramda": "^0.24.1",
-    "randomatic": "^1.1.7"
+    "randomatic": "^3.1.1"
   }
 }
