@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "repository": "lukeed/arr",
   "description": "Fastest Array.filter alternative --- mutates original array!",
+  "types": "module.d.ts",
   "module": "module.js",
   "main": "index.js",
   "license": "MIT",
