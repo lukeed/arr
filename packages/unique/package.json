@@ -1,6 +1,6 @@
 {
   "name": "@arr/unique",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "lukeed/arr",
   "description": "A tiny (111B) & fast utility to retrieve all unique values from an Array",
   "types": "module.d.ts",

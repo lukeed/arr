@@ -1,6 +1,6 @@
 {
   "name": "@arr/reduce",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "lukeed/arr",
   "description": "A tiny, faster alternative to native Array.prototype.reduce",
   "types": "module.d.ts",

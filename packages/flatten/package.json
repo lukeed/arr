@@ -1,6 +1,6 @@
 {
   "name": "@arr/flatten",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "lukeed/arr",
   "description": "A tiny (139B) & fast utility to recursively flatten an array of arrays!",
   "types": "module.d.ts",
