@@ -1,6 +1,6 @@
 {
   "name": "@arr/filter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": "lukeed/arr",
   "description": "A tiny, faster alternative to native Array.prototype.filter",
   "types": "module.d.ts",
