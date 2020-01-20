@@ -6,6 +6,7 @@ const arrayFlat = require('array-flatten');
 const lodash = require('lodash.flattendeep');
 const curr = require('../../packages/flatten');
 
+exports['native'] = arr => arr.flat(Infinity);
 exports['@arr/flatten'] = arr => curr(arr);
 exports['arr-flatten'] = arr => arrFlat(arr);
 exports['array-flatten'] = arr => arrayFlat(arr);
