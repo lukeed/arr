@@ -1,2 +1,12 @@
-export type Reducer<T> = (previous: T, current: T, index: number, arr: T[]) => T;
-export default function<T>(arr: T[], callback: Reducer<T>, initialValue?: T): T;
+export type Reducer<T, I> = (
+	previous: I,
+	current: T,
+	index: number,
+	arr: T[]
+) => I;
+
+export default function <ArrayItemType, ReturnType = ArrayItemType[]>(
+	arr: ArrayItemType[],
+	callback: Reducer<ArrayItemType, ReturnType>,
+	initialValue?: ReturnType
+): ReturnType;
