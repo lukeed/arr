@@ -1,4 +1,4 @@
-export type Reducer<T, R> = (
+export type Reducer<T, R=T> = (
 	previous: R,
 	item: T,
 	index: number,
