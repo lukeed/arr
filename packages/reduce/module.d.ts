@@ -1,6 +1,6 @@
 export type Reducer<T, R=T> = (
 	previous: R,
-	item: T,
+	current: T,
 	index: number,
 	arr: T[]
 ) => R;
