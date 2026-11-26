@@ -5,7 +5,7 @@ export default function (arr, fn, val) {
 
 	var i=arr.length, out=val;
 
-	if (out === void 0) {
+	if (out === void 0 && i) {
 		i--;
 		out = arr[i];
 	}
