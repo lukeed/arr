@@ -33,3 +33,29 @@ test('@arr/reduceRight - callback', t => {
 	});
 	t.end();
 });
+
+test('@arr/reduceRight - empty without initial value', t => {
+	let calls = 0, result;
+	t.doesNotThrow(() => {
+		result = fn([], () => {
+			calls++;
+			throw new Error('An empty array must not call the reducer');
+		});
+	}, 'returns without calling the reducer');
+	t.equal(calls, 0, 'does not visit negative indexes');
+	t.equal(result, undefined, 'returns undefined, like reduce');
+	t.end();
+});
+
+test('@arr/reduceRight - empty with initial value', t => {
+	[undefined, 0, false, null, '', [], {}].forEach(initial => {
+		let result;
+		t.doesNotThrow(() => {
+			result = fn([], () => {
+				throw new Error('An empty array must not call the reducer');
+			}, initial);
+		}, 'does not call the reducer');
+		t.equal(result, initial, 'returns the initial value unchanged');
+	});
+	t.end();
+});
